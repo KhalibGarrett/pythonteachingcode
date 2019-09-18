@@ -53,6 +53,7 @@ for blog_post in blog_posts:
     csv_writer.writerow([i,justtitle,source,URL,date])
 
     i += 1
-    print()
+    
+    print("DONE")
 
 ksu_news_csv.close()
